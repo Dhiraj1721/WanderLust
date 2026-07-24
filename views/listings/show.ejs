@@ -28,6 +28,11 @@
         country: <%= singleList.country %>
       </li>
     </ul>
+
+    <a href="/listings/<%= singleList.id %>/edit">Edit Listing</a>
+
+    <form method="post" action="/listings/<%= singleList.id %>?_method=delete"><button>Delete this listing</button>
+    </form>
   </div>
 </body>
 
