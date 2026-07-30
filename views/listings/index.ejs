@@ -1,24 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+<%- layout('/layouts/boilerPlate.ejs') %>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WanderLust</title>
-</head>
+  <body>
 
-<body>
-  <h3>All Listings</h3>
-  <form action="/listings/new" method="get"><button>Add new hotel</button></form>
-  <ul>
+    <h3>All Listings</h3>
+    <!-- <form action="/listings/new" method="get"><button>Add new hotel</button></form>
+    <ul> -->
     <% for(list of allList){ %>
       <li><a href="/listings/<%=list.id%>">
           <%= list.title %>
         </a></li>
-
       <% } %>
         <br><br>
-  </ul>
-</body>
-
-</html>
+        </ul>
+  </body>
