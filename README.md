@@ -19,7 +19,8 @@ An Airbnb-inspired web application.
 - EJS file created
 - Route created for gathering Database data
 - Backend logic for CRUD operation completed .
+- Listings layout is completed with styling using Bootstrap.
 
 ## Next Task
 
-- To add styling for frontend files
+- To learn about middlewares and used them in the wanderLust code.
